@@ -45,3 +45,42 @@ git 로컬 브랜치를 원격저장소로 푸시한다고 생각하시면 됩�
 
 ![initial](https://github.com/hse0/hse0/assets/162945822/aa0e1fa7-eb74-4a5d-a12f-56c27e816b5b)
 이 명령어는 origin이라는 리모트 레포지토리에 main이라는 브랜치를 생성하고 로컬 레포지토리의 main 브랜치의 내용을 리모트 레포지토리의 main에 보내라는 뜻입니다. 그 이후에 아래에 명령어들은 git hup 나의 레포지토리의 저장이 완료 되었다는 얘기입니다.   <br/>
+
+5. ReadMe.md 파일에 사용된 Mark Down 표기법 에대해서 헤더/목록(숫자)/순서없는목록(ex>*) / 들여쓰기 / 코드블럭 / 수평선 /링크 / 이미지/ 강조 에 대해 사용 방법을 정리해 오시오.
+
+ ![initial](https://github.com/hse0/hse0/assets/162945822/78557c45-b0d6-40f1-ace4-b49872d45685)
+헤더는 문서의 제목이나 섹션을 정의할 때 사용됩니다. "#" 기호를 사용하여 헤더를 만들 수 있습니다. "#"의 개수에 따라 헤더의 수준이 결정됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/e6ae1963-b418-46cd-ac64-3179526ab279)
+목록(숫자) 숫자 목록은 순서가 있는 항목을 나열할 때 사용됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/e347d0c5-7cab-4abc-9e21-44a363d95480)
+순서 없는 목록 : 순서 없는 목록은 순서가 중요하지 않은 항목을 나열할 때 사용됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/7660731d-9234-441e-a714-c030fe38c8e7)
+들여쓰기 : 들여쓰기는 하위 목록을 만들거나 텍스트를 구분할 떄 사용됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/afec4122-6b4f-4274-af2a-0d574af5abae)
+코드 블럭 : 코드 블럭은 코드 또는 텍스트를 강조할 때 사용됩니다. Backtick(`) 기호를 사용하여 코드를 감싸면 됩니다. 코드 블록 사용시 프로그래밍 언러를 선언하여 문법 강조가 가능합니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/b2080ddc-9b6f-4bf5-bc02-a6d57f5fe223)
+수평선 : 수평선은 문단을 나누거나 구분할 때 사용됩니다. 세 개 이상의 하이픈(-), 별표(*), 언더바(_)를 연속하여 사용합니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/acda21da-6a61-414c-8871-9ae7bfdb0100)
+링크 : 링크는 다른 웹 페이지로 연결할 떄 사용됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/738b34af-cc41-40f5-a305-1c94f543e9ac)
+이미지 : 이미지를 삽입할 때 사용됩니다.
+<br/>
+
+![initial](https://github.com/hse0/hse0/assets/162945822/eb4ec354-27a7-455e-bd64-2f1dec388764)
+강조 : 텍스트를 강조할 때 사용됩니다. 별표(*) 또는 언더바(_)를 사용하여 강조할 부분을 감쌉니다.
+<br/>
+ 
