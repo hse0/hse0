@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        #total{
+            width: 800;
+            height: 450;
+            background-color: red;
+        }
+        #d_Top{
+            
+            width: 800;
+            height: 50;
+            background-color: yellow;
+            
+        }
+        #d_Left{
+            float : left ;
+            width:  160;
+            height: 400;
+            background-color: blue;
+        }
+        #d_Right{
+            float: right;
+            width:  640;
+            height: 400;
+            background-color: green;
+            position: relative;
+            
+        }
+        #button1,#button2{
+            width: 100;
+            height: 40;
+            margin-left: 30;
+            margin-top: 20;
+        }
+        #name{
+            font-size: 20;
+            margin-right: 20;
+            padding-top: 10;  
+        }
+        #mainT{
+            font-size: 30;
+            margin-left: 42%;
+            margin-top: 27%;
+            position: absolute;
+        }
+        #Game{
+            font-size: 20;
+            margin-left: 40%;
+            margin-top: 30%;
+            position: absolute;
+        }
+        #img{
+            margin-left: -70%;
+            margin-top: -40%;
+        }
+        #list{
+            margin-top: -50%;
+        }
+      
+
+    </style>
+    <script>
+    
+    
+    function drawCircle() {
+        var textElenment = document.getElementById('mainT');
+        textElenment.style.display = 'none';
+        var GameText = document.getElementById('Game');
+        GameText.style.display = 'none';
+
+        var canvas = document.getElementById('myCanvas');  // canvas 요소 가져오기
+                canvas.style.display = 'block';
+                var context = canvas.getContext('2d'); 
+
+                var centerX = canvas.width / 2; //원 위치 설정
+                var centerY = canvas.height / 2;
+                var radius = 100; 
+                
+
+                context.clearRect(0, 0, canvas.width, canvas.height); // 캔버스 지우기
+                context.beginPath(); // 새로운 그림 시작
+                context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false); // 원 그리기
+                context.fillStyle = 'skyblue'; // 채우기 색상 설정
+                context.fill(); // 원 채우기
+                context.lineWidth = 5; // 선의 두께 설정
+                context.strokeStyle = 'green'; // 선 색상 설정
+                context.stroke(); // 원 테두리 그리기
+
+                
+    }
+    function myGameCircle(){
+        var textElenment = document.getElementById('mainT');
+        textElenment.style.display ='none';
+        var canvas = document.getElementById('myCanvas');
+        canvas.style.display = 'none';
+        document.getElementById('Game').style.display = 'block';
+
+    }
+    </script>
+</head>
+<body>
+    <div id = "total">
+        <div id = "d_Top"><p id ="name" style="text-align: right">202127070 강희승</p>
+        </div>
+        <div id = "d_Left">
+            <button type="button" id = "button1" onclick="drawCircle()">버튼1</button>
+            <button type="button" id = "button2" onclick="myGameCircle()">버튼2</button>
+        </div>
+        <div id ="d_Right">
+            <b id = "mainT">빈 화면
+            </b>
+             <canvas id  ="myCanvas" width="640" height="400">
+             </canvas>
+             <div id="Game" style="display: none;">
+             <img src="League of legends.jpg" id ="img" alt ="리그오브레전드" width="180"
+              height="80">
+              <ul id = "list"></ul>
+                <li>게임명 : 리그 오브 레전드(롤)</li>
+                <li>출시년도 :2011.12.4</li>
+                <li>장르 : MOBA , AOS() </li>
+                <li>좋아하는 이유 : 중독성이 심하다 </li>
+             </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
